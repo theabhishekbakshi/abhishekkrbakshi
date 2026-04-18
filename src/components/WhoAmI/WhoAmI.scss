@@ -1,0 +1,82 @@
+.whoami-section{
+    color: #fff;
+    padding: 70px 0;
+}
+
+.whoami-sub-heading{
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0.35em;
+    font-size: 0.75rem;
+    color: var(--hs-accent, #c46b1f);
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 30px;
+    text-transform: uppercase;
+}
+
+.whoami-content{
+    display: flex;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+.whoami-inner{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.split{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    text-align: left;
+    width: 60%;
+    margin: 0;
+    font-size: clamp(1.2rem, 3.2vw, 2.5rem);
+    line-height: clamp(2rem, 5vw, 4.5rem);
+}
+
+.whoami-image{
+    width: 32%;
+    height: auto;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.whoami-word{
+    display: inline-block;
+    will-change: transform, opacity;
+}
+
+// @media (max-width: 920px) {
+//     .whoami-content{
+//         padding: 0 12px;
+//     }
+
+//     .whoami-inner{
+//         flex-direction: column-reverse;
+//         align-items: center;
+//         justify-content: center;
+//         gap: 18px;
+//     }
+
+//     .split{
+//         width: 100%;
+//         text-align: center;
+//         font-size: clamp(1rem, 4.5vw, 1.6rem);
+//         line-height: 1.6;
+//     }
+
+//     .whoami-image{
+//         width: min(320px, 50%);
+//         height: auto;
+//         aspect-ratio: auto;
+//         object-fit: cover;
+//     }
+// }
